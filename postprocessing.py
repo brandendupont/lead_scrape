@@ -4,74 +4,81 @@ import numpy as np
 import requests as r
 from bs4 import BeautifulSoup
 
-## Global Vars
-#url path for RETR Data
-RETR_DATA_PAGE = 'https://www.revenue.wi.gov/pages/eretr/data-home.aspx'
+#url path for open abated lead properties
+JSON_OPEN = 'https://healthmke.quickbase.com/db/bpv8vzw6z?a=JBI_GetReportData&initialLoad=true&shouldUseVirtualization=false&qid=15&newTableGrid=true&CompareWithAppLocalTime=1&noCacheJBI=1'
 
+#url path for closed abated lead properties
+JSON_PAST = 'https://healthmke.quickbase.com/db/bptrhj6it?a=JBI_GetReportData&initialLoad=true&shouldUseVirtualization=false&qid=84&newTableGrid=true&CompareWithAppLocalTime=1&noCacheJBI=1'
 
-def get_retr_links(url_page):
+def parse_open_df(df):
     
-    """
-    Get all links in a web page
-    """
-        
-    res = r.get(url_page)
-    soup = BeautifulSoup(res.text, 'html.parser')
-    
-    return [link.get('href') for link in soup.find_all('a')]
+    address =  [i.pop('value', None) for i in df['57'].values]
+    ext_ord_due_date =  [i.pop('value', None) for i in df['13'].values]
+    int_ord_due_date =  [i.pop('value', None) for i in df['8'].values]
+    int_status =  [i.pop('value', None) for i in df['43'].values]
+    ext_status =  [i.pop('value', None) for i in df['44'].values]
 
-def filter_url(txt):
-    return ".zip" in str(txt)
-
-def get_subset_mke_retr(retr_zip_url):
+    int_status =  [i.pop('value', None) for i in df['45'].values]
+    type_of_order =  [i.pop('value', None) for i in df['6'].values]
+    order_issue_date =  [i.pop('value', None) for i in df['9'].values]
+    ald =  [i.pop('value', None) for i in df['54'].values]
     
-    """
-    Get all retr files from DOR website and return Milwaukee RETR data.
-    """
     
-    # all files
-    retr_zip_url_df = []
+    # Orders with Open Status - Public (January 2018-YTD)
+    open_lead_parsed = pd.DataFrame({
+        'Address':address,
+        'Exterior Order Due Date':ext_ord_due_date,
+        'Interior Orders Due Date':int_ord_due_date,
+        'Interior Order Status': int_status,
+        'Exterior Order Status': ext_status,
+        'Interior Order Status': int_status,
+        'Type of Orders': type_of_order,
+        'Order Issued Date': order_issue_date,
+        'alderman': ald,
+    })
+
+    return open_lead_parsed
+
+def parse_closed_dates(abated_json_df):
     
-    for monthly_retr_url in retr_zip_url:
-        
-        #read data
-        retr_zip = pd.read_csv(monthly_retr_url, compression='zip', header=0, sep=',', quotechar='"', encoding = "ISO-8859-1")
-        
-        #subset
-        retr_zip = retr_zip[retr_zip['CountyName'].str.lower().str.contains('milw') == True]
-        
-        # append
-        retr_zip_url_df.append(retr_zip)
-        
+    abated_address =  [i.pop('value', None) for i in abated_json_df['144'].values]
+    clear_date =  [i.pop('value', None) for i in abated_json_df['64'].values]
+    abated_ald =  [i.pop('value', None) for i in abated_json_df['80'].values]
     
-    return retr_zip_url_df
+    # Orders with Open Status - Public (January 2018-YTD)
+    abated_parse_df = pd.DataFrame({
+        'Address':abated_address,
+        'Final Clearance Date':clear_date,
+        'Alderman': abated_ald,
+    })
+    
+    return abated_parse_df    
 
 
-if __name__ == "__main__":
-
+def main():
+    
     print("argv :", sys.argv)
 
-    # get all links at retr page
-    urls = get_retr_links(url_page=RETR_DATA_PAGE)
-    # filter list to only include zip files
-    filtered_url = list(filter(filter_url,urls))
+    # get and parse open lead properties
+    open_lead = r.get(JSON_OPEN)
+    open_lead_json = pd.DataFrame(open_lead.json()['records'])
+    open_lead_df = parse_open_df(open_lead_json)
 
-    # generate urls from wi revenue
-    retr_zip_url = ["https://www.revenue.wi.gov" + i for i in filtered_url]
-
-    # get zipped data, filter to include only milwaukee county, 
-    mke_retr_mn = get_subset_mke_retr(retr_zip_url=retr_zip_url)
-
-    # make sure the .zip url size is the same as the list of dataframes
-    assert len(mke_retr_mn) == len(retr_zip_url)
-
-    #combine dataframes
-    mke_retr = pd.concat(mke_retr_mn)
+    # get and parse historical lead properties
+    abated = r.get(JSON_PAST)
+    abated_json_df = pd.DataFrame(abated.json()['records'])
+    abated_lead_df = parse_closed_dates(abated_json_df)
 
     #save data
-    mke_retr.to_csv('flat_mke_retr.csv', index=False)
+    abated_lead_df.to_csv('abated_lead.csv', index=False)
+    open_lead_df.to_csv('open_lead.csv', index=False)
 
     df = pd.DataFrame(np.random.randint(0, 100,\
          size=(10, 4)), columns=list('ABCD'))
 
     df.to_csv("df_output.csv")
+
+
+if __name__ == "__main__":
+
+    main()

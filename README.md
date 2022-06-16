@@ -1,10 +1,10 @@
-# Scrape DOR Milwaukee Real Estate Transfer Data
+# Scrape MHD HEH Dashboard 
 
-A postprocess script in Github's Flat Data actions is used to fire a Python script that collects real estate transfer data
+A postprocess script in Github's Flat Data actions is used to fire a Python script that collects data from the [Milwaukee Health Department Lead Dashboard](https://healthmke.quickbase.com/db/bptnemrfu?a=showpage&pageID=22)
 
 ## Execution :
 
-- the Flat Data action is scheduled daily.
+- the Flat Data action is scheduled weekly to run on Monday.
 
 - the `postprocess.ts` script is then run, triggers the install of python packages, and runs the main python script `postprocess.py`.
 
