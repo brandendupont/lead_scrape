@@ -33,6 +33,7 @@ Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,E
 "1245 North 25th Street, Milwaukee, Wisconsin 53205",08-28-2020,,Open,Open,Exterior,07-24-2020,4
 "1122 North 27th Street 4, Milwaukee, Wisconsin 53208",,05-30-2019,Open,,Interior,04-15-2019,4
 "1220 North 25th Street, Milwaukee, Wisconsin 53205",06-26-2021,06-26-2021,Open,Open,Both,05-27-2021,4
+"2335 North 5th Street, Milwaukee, Wisconsin 53212",07-30-2022,07-30-2022,Open,Open,Both,07-05-2022,6
 "3347 North Richards Street, Milwaukee, Wisconsin 53212",07-27-2022,07-07-2022,Open,Open,Both,06-07-2022,6
 "3815 North 16th Street A, Milwaukee, Wisconsin 53206",,06-22-2022,Open,,Interior,05-23-2022,6
 "3244A North 21st Street, Milwaukee, Wisconsin 53206",06-24-2022,06-24-2022,Open,Open,Both,05-25-2022,6
@@ -68,11 +69,13 @@ Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,E
 "3610 North 25th Street A, Milwaukee, Wisconsin 53206",05-31-2021,12-24-2020,Open,Open,Both,11-24-2020,6
 "3613 North 11th Street, Milwaukee, Wisconsin 53206",05-31-2021,01-09-2021,Open,Enforcement,Both,12-09-2020,6
 "609 West Vienna Avenue, Milwaukee, Wisconsin 53212",05-31-2019,04-27-2019,Open,Enforcement,Both,03-13-2019,6
-"2335 North 5th Street, Milwaukee, Wisconsin 53212",,06-09-2019,Open,,Interior,04-25-2019,6
 "3716 North 23rd Street, Milwaukee, Wisconsin 53206",08-09-2019,08-09-2019,Open,Enforcement,Both,07-10-2019,6
 "3322 North Vel R. Phillips Avenue, Milwaukee, Wisconsin 53212",05-31-2020,05-31-2020,Open,Enforcement,Both,12-18-2019,6
 "3277 North 1st Street, Milwaukee, Wisconsin 53212",07-10-2019,07-10-2019,Open,Open,Both,06-11-2019,6
 "2546 North 7th Street, Milwaukee, Wisconsin 53212",05-31-2021,04-02-2021,Open,Open,Both,03-03-2021,6
+"2432 West Concordia Avenue, Milwaukee, Wisconsin 53206",08-05-2022,08-05-2022,Open,Open,Both,07-07-2022,7
+"3260 N 37th Street, Milwaukee, Wisconsin 53216",07-30-2022,07-30-2022,Open,Open,Both,07-05-2022,7
+"4110 North 50th Street, Milwaukee, Wisconsin 53216",07-30-2022,,Open,Open,Exterior,07-05-2022,7
 "2952 North 51st Street, Milwaukee, Wisconsin 53210",09-20-2021,09-20-2021,Open,Enforcement,Both,08-18-2021,7
 "2952 North 51st Street, Milwaukee, Wisconsin 53210",,,Open,,None,,7
 "2850 North 51st Street, Milwaukee, Wisconsin 53210",06-01-2022,06-01-2022,Open,Enforcement,Both,05-02-2022,7
@@ -85,7 +88,6 @@ Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,E
 "2924 North 44th Street, Milwaukee, Wisconsin 53210",05-07-2021,05-07-2021,Open,Enforcement,Both,04-07-2021,7
 "2914 North 24th Place A, Milwaukee, Wisconsin 53206",05-31-2021,02-24-2021,Open,Enforcement,Both,01-25-2021,7
 "2731 North 50th Street, Milwaukee, Wisconsin 53210",05-31-2021,03-26-2021,Open,Open,Both,02-24-2021,7
-"3260 N 37th Street, Milwaukee, Wisconsin 53216",05-31-2021,04-10-2021,Open,Open,Both,03-11-2021,7
 "2952 North 51st Street A, Milwaukee, Wisconsin 53210",09-20-2021,09-20-2021,Open,Enforcement,Both,08-18-2021,7
 "3069 North 36th Street, Milwaukee, Wisconsin 53210",10-14-2021,10-14-2021,Open,Open,Both,09-14-2021,7
 "4416 North 37th Street, Milwaukee, Wisconsin 53209",10-21-2021,10-21-2021,Open,Open,Both,09-21-2021,7
@@ -95,20 +97,17 @@ Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,E
 "2733 West Auer Avenue, Milwaukee, Wisconsin 53216",05-31-2022,01-02-2022,Open,Open,Both,12-03-2021,7
 "3222 North 28th Street, Milwaukee, Wisconsin 53216",05-31-2022,11-14-2021,Open,Enforcement,Both,10-14-2021,7
 "3261 North 30th Street A, Milwaukee, Wisconsin 53216",,09-17-2021,Open,Closed,Interior,08-18-2021,7
-"4110 North 50th Street, Milwaukee, Wisconsin 53216",07-12-2019,07-12-2019,Open,Enforcement,Both,06-12-2019,7
 "3825 North 27th Street A, Milwaukee, Wisconsin 53216",02-16-2019,02-16-2019,Open,Enforcement,Both,01-02-2019,7
 "3051 North 25th Street, Milwaukee, Wisconsin 53206",08-17-2019,08-17-2019,Open,Enforcement,Both,07-18-2019,7
 "2714 North 48th Street, Milwaukee, Wisconsin 53210",05-31-2020,01-19-2020,Open,Enforcement,Both,12-19-2019,7
+"2231 West Orchard Street, Milwaukee, Wisconsin 53204",07-29-2022,07-29-2022,Open,Open,Both,07-05-2022,8
+"2233 West Orchard Street, Milwaukee, Wisconsin 53204",07-29-2022,07-29-2022,Open,Open,Both,06-29-2022,8
 "1804 South 24th St Lower Rear, Milwaukee, Wisconsin 53204",06-12-2022,06-12-2022,Open,Open,Both,05-13-2022,8
 "2023 South 30th Street, Milwaukee, Wisconsin 53215",05-31-2022,04-30-2022,Open,Open,Both,03-31-2022,8
 "1730 South 26th Street, Milwaukee, Wisconsin 53204",05-31-2022,12-09-2021,Open,Open,Both,,8
-"2233 West Orchard Street, Milwaukee, Wisconsin 53204",,11-25-2018,Open,,Interior,10-12-2018,8
-"2233 West Orchard Street, Milwaukee, Wisconsin 53204",09-10-2018,09-10-2018,Open,Open,Both,07-30-2018,8
 "729 South 24th Street A, Milwaukee, Wisconsin 53204",09-20-2021,09-20-2021,Open,Enforcement,Both,08-18-2021,8
 "2150 South 26th Street, Milwaukee, Wisconsin 53215",09-20-2021,,Open,Enforcement,Exterior,08-18-2021,8
-"2231 West Orchard Street, Milwaukee, Wisconsin 53204",05-31-2022,01-08-2022,Open,Open,Both,12-17-2021,8
 "2335 W Maple St Unit C, Milwaukee, Wisconsin 53204",05-31-2022,,Open,Open,Exterior,01-07-2022,8
-"2233 West Orchard Street, Milwaukee, Wisconsin 53204",05-31-2022,01-08-2022,Open,Open,Both,12-17-2021,8
 "2335 W Maple St Unit C, Milwaukee, Wisconsin 53204",05-21-2021,12-04-2020,Open,Open,Both,11-11-2020,8
 "1552 South 22nd Street, Milwaukee, Wisconsin 53204",05-31-2022,12-08-2021,Open,Open,Both,11-08-2021,8
 "1244 South 29th Street, Milwaukee, Wisconsin 53215",09-24-2021,09-24-2021,Open,Open,Both,08-25-2021,8
@@ -133,6 +132,7 @@ Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,E
 "5404 West Wisconsin Avenue, Milwaukee, Wisconsin 53208",09-26-2021,09-26-2021,Open,Open,Both,08-27-2021,10
 "2323 North 53rd Street, Milwaukee, Wisconsin 53210",06-02-2021,06-02-2021,Open,Enforcement,Both,05-04-2021,10
 "8005 West Euclid, Milwaukee, Wisconsin 53219",,02-10-2022,Open,,Interior,01-11-2022,11
+"2529 South 15th Street A, Milwaukee, Wisconsin 53215",07-30-2022,07-30-2022,Open,Open,Both,06-30-2022,12
 "1327 South 9th Street, Milwaukee, Wisconsin 53204",07-28-2022,07-28-2022,Open,Open,Both,06-28-2022,12
 "1208 West Walker Street, Milwaukee, Wisconsin 53204",06-12-2022,,Open,Open,Exterior,05-13-2022,12
 "1208 West Walker Street, Milwaukee, Wisconsin 53204",05-31-2022,05-27-2022,Open,Closed,Both,04-27-2022,12
@@ -164,6 +164,7 @@ Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,E
 "3576 South Quincy Avenue, Milwaukee, Wisconsin 53207",05-31-2021,,Open,Abatement in Process,Exterior,01-19-2021,14
 "2125 North 44th Street, Milwaukee, Wisconsin 53208",07-29-2022,07-29-2022,Open,Open,Both,06-29-2022,15
 "2525 North 45th Street, Milwaukee, Wisconsin 53210",07-28-2022,07-28-2022,Open,Open,Both,06-28-2022,15
+"2624 North 28th Street, Milwaukee, Wisconsin 53210",07-16-2022,07-16-2022,Open,Open,Both,06-17-2022,15
 "2236 North 29th Street, Milwaukee, Wisconsin 53208",07-16-2022,07-16-2022,Open,Open,Both,06-17-2022,15
 "928 West Meinecke Avenue 1, Milwaukee, Wisconsin 53206",06-22-2022,06-22-2022,Open,Open,Both,05-23-2022,15
 "2635 North 40th Street, Milwaukee, Wisconsin 53210",06-18-2022,06-18-2022,Open,Open,Both,05-19-2022,15
