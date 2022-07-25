@@ -1,4 +1,6 @@
 Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,Exterior Order Status,Type of Orders,Order Issued Date,alderman
+"4114 North 12th Street, Milwaukee, Wisconsin 53209",08-20-2022,08-20-2022,Open,Open,Both,07-21-2022,1
+"4114 North 12th Street Unit A, Milwaukee, Wisconsin 53206",08-20-2022,08-20-2022,Open,Open,Both,07-21-2022,1
 "5760 North 32nd Street, Milwaukee, Wisconsin 53209",,07-16-2022,Open,,Interior,06-17-2022,1
 "4326 North 28th Street, Milwaukee, Wisconsin 53216",05-31-2022,05-13-2022,Open,Open,Both,,1
 "4271 North 26th Street, Milwaukee, Wisconsin 53209",05-31-2022,04-27-2022,Open,Open,Both,04-05-2022,1
@@ -100,6 +102,7 @@ Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,E
 "3825 North 27th Street A, Milwaukee, Wisconsin 53216",02-16-2019,02-16-2019,Open,Enforcement,Both,01-02-2019,7
 "3051 North 25th Street, Milwaukee, Wisconsin 53206",08-17-2019,08-17-2019,Open,Enforcement,Both,07-18-2019,7
 "2714 North 48th Street, Milwaukee, Wisconsin 53210",05-31-2020,01-19-2020,Open,Enforcement,Both,12-19-2019,7
+"2434 West Maple Street, Milwaukee, Wisconsin 53204",08-14-2022,08-14-2022,Open,Open,Both,07-15-2022,8
 "2231 West Orchard Street, Milwaukee, Wisconsin 53204",07-29-2022,07-29-2022,Open,Open,Both,07-05-2022,8
 "2233 West Orchard Street, Milwaukee, Wisconsin 53204",07-29-2022,07-29-2022,Open,Open,Both,06-29-2022,8
 "1804 South 24th St Lower Rear, Milwaukee, Wisconsin 53204",06-12-2022,06-12-2022,Open,Open,Both,05-13-2022,8
