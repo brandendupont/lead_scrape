@@ -1,4 +1,5 @@
 Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,Exterior Order Status,Type of Orders,Order Issued Date,alderman
+"4656 North 20th Street, Milwaukee, Wisconsin 53209",08-31-2022,08-31-2022,Open,Open,Both,08-01-2022,1
 "4114 North 12th Street, Milwaukee, Wisconsin 53209",08-20-2022,08-20-2022,Open,Open,Both,07-21-2022,1
 "4114 North 12th Street Unit A, Milwaukee, Wisconsin 53206",08-20-2022,08-20-2022,Open,Open,Both,07-21-2022,1
 "5760 North 32nd Street, Milwaukee, Wisconsin 53209",,07-16-2022,Open,,Interior,06-17-2022,1
@@ -35,6 +36,7 @@ Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,E
 "1245 North 25th Street, Milwaukee, Wisconsin 53205",08-28-2020,,Open,Open,Exterior,07-24-2020,4
 "1122 North 27th Street 4, Milwaukee, Wisconsin 53208",,05-30-2019,Open,,Interior,04-15-2019,4
 "1220 North 25th Street, Milwaukee, Wisconsin 53205",06-26-2021,06-26-2021,Open,Open,Both,05-27-2021,4
+"1220 West Burleigh Street, Milwaukee, Wisconsin 53206",08-26-2022,08-26-2022,Open,Open,Both,07-27-2022,6
 "2444 North 1st Street, Milwaukee, Wisconsin 53212",08-27-2022,08-27-2022,Open,Open,Both,07-28-2022,6
 "3909 North 11th Street, Milwaukee, Wisconsin 53206",08-27-2022,08-27-2022,Open,Open,Both,07-28-2022,6
 "2569 North Richards Street, Milwaukee, Wisconsin 53212",08-26-2022,08-26-2022,Open,Open,Both,07-27-2022,6
