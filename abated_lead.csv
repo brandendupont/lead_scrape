@@ -84,9 +84,9 @@ Address,Final Clearance Date,Alderman
 "8116 West Sheridan Avenue, Milwaukee, Wisconsin 53218",01-09-2019,2
 "4747 North 72nd Street, Milwaukee, Wisconsin 53218",10-04-2019,2
 "2728 North Weil Street, Milwaukee, Wisconsin 53212",08-14-2020,3
+"1122 North 27th Street 4, Milwaukee, Wisconsin 53208",06-17-2019,4
 "502 North 32nd Street, Milwaukee, Wisconsin 53208",03-21-2022,4
 "2435 West Wisconsin Avenue 108, Milwaukee, Wisconsin 53233",12-04-2021,4
-"1122 North 27th Street 4, Milwaukee, Wisconsin 53208",06-17-2019,4
 "2913 West Vliet Street, Milwaukee, Wisconsin 53208",11-22-2021,4
 "2435 West Wisconsin Avenue 103, Milwaukee, Wisconsin 53233",12-28-2021,4
 "1315 North 25th Street, Milwaukee, Wisconsin 53205",09-13-2021,4
@@ -205,6 +205,7 @@ Address,Final Clearance Date,Alderman
 "2376 North Richards Street, Milwaukee, Wisconsin 53212",12-19-2018,6
 "2823 North Palmer Street, Milwaukee, Wisconsin 53212",08-30-2018,6
 "125 West Hadley Street B, Milwaukee, Wisconsin 53212",07-27-2018,6
+"3261 North 30th Street A, Milwaukee, Wisconsin 53216",08-28-2019,7
 "3378 North 38th Street, Milwaukee, Wisconsin 53216",04-08-2022,7
 "1429 North 37th Street, Milwaukee, Wisconsin 53208",03-14-2022,7
 "4136 North 47th Street, Milwaukee, Wisconsin 53216",03-21-2022,7
@@ -230,7 +231,6 @@ Address,Final Clearance Date,Alderman
 "3322 North 51st Boulevard, Milwaukee, Wisconsin 53216",09-03-2021,7
 "4041 North Montreal Street, Milwaukee, Wisconsin 53216",12-15-2020,7
 "3403 North 39th Street, Milwaukee, Wisconsin 53216",08-12-2021,7
-"3261 North 30th Street A, Milwaukee, Wisconsin 53216",08-28-2019,7
 "3387 North 38th Street, Milwaukee, Wisconsin 53216",06-23-2021,7
 "4509 North 37th Street, Milwaukee, Wisconsin 53209",04-27-2021,7
 "2961 North 28th Street, Milwaukee, Wisconsin 53210",11-23-2020,7
@@ -438,6 +438,8 @@ Address,Final Clearance Date,Alderman
 "4815 West Oklahoma Avenue 2, Milwaukee, Wisconsin 53219",04-09-2019,11
 "4815 West Oklahoma Avenue 3, Milwaukee, Wisconsin 53219",04-09-2019,11
 "4815 West Oklahoma Avenue 1, Milwaukee, Wisconsin 53219",04-09-2019,11
+"1557 West Walker Street, Milwaukee, Wisconsin 53204",07-12-2022,12
+"2208 South 15th Place, Milwaukee, Wisconsin 53215",07-01-2022,12
 "2237a South 14th Street, Milwaukee, Wisconsin 53215",05-24-2022,12
 "2237 South 14th Street, Milwaukee, Wisconsin 53215",05-24-2022,12
 "1510 West Scott Street, Milwaukee, Wisconsin 53204",02-28-2022,12
