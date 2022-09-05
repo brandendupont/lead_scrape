@@ -79,6 +79,7 @@ Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,E
 "3322 North Vel R. Phillips Avenue, Milwaukee, Wisconsin 53212",05-31-2020,05-31-2020,Open,Enforcement,Both,12-18-2019,6
 "3277 North 1st Street, Milwaukee, Wisconsin 53212",07-10-2019,07-10-2019,Open,Open,Both,06-11-2019,6
 "2546 North 7th Street, Milwaukee, Wisconsin 53212",05-31-2021,04-02-2021,Open,Open,Both,03-03-2021,6
+"2432 West Concordia Avenue, Milwaukee, Wisconsin 53206",09-30-2022,09-30-2022,Open,Open,Both,08-31-2022,7
 "3260 N 37th Street, Milwaukee, Wisconsin 53216",09-23-2022,09-23-2022,Open,Open,Both,08-24-2022,7
 "2852 North 51st Street, Milwaukee, Wisconsin 53210",09-17-2022,09-17-2022,Open,Enforcement,Both,08-18-2022,7
 "2850 North 51st Street, Milwaukee, Wisconsin 53210",09-17-2022,09-17-2022,Open,Enforcement,Both,08-18-2022,7
@@ -86,7 +87,6 @@ Address,Exterior Order Due Date,Interior Orders Due Date,Interior Order Status,E
 "2733 West Auer Avenue, Milwaukee, Wisconsin 53216",09-17-2022,09-17-2022,Open,Open,Both,08-18-2022,7
 "3155 North 46th Street, Milwaukee, Wisconsin 53210",09-14-2022,09-14-2022,Open,Open,Both,08-15-2022,7
 "3825 North 27th Street A, Milwaukee, Wisconsin 53216",08-26-2022,08-26-2022,Open,Open,Both,07-27-2022,7
-"2432 West Concordia Avenue, Milwaukee, Wisconsin 53206",08-05-2022,08-05-2022,Open,Open,Both,07-07-2022,7
 "4110 North 50th Street, Milwaukee, Wisconsin 53216",07-30-2022,,Open,Open,Exterior,07-05-2022,7
 "2952 North 51st Street, Milwaukee, Wisconsin 53210",09-20-2021,09-20-2021,Open,Enforcement,Both,08-18-2021,7
 "2952 North 51st Street, Milwaukee, Wisconsin 53210",,,Open,,None,,7
